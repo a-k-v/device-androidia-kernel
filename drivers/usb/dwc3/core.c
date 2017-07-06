@@ -47,7 +47,7 @@
 
 #include "debug.h"
 
-#define DWC3_DEFAULT_AUTOSUSPEND_DELAY	5000 /* ms */
+#define DWC3_DEFAULT_AUTOSUSPEND_DELAY	(-1)  /* prevent RTPM for usb */
 
 /**
  * dwc3_get_dr_mode - Validates and sets dr_mode
